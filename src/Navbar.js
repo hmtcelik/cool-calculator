@@ -1,10 +1,9 @@
 const Navbar = () => {
     return ( 
         <nav className="navbar">
-            <h1>My Blog</h1>
+            <h1>Calculator</h1>
             <div className="links">
-                <a href="/">Home</a>
-                <a href="/create">New Blog</a>
+                <a target="_blank" href="https://github.com/hmtcelik/react-calculator">Github</a>
             </div>
         </nav>    
     );

@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
-
-/* base styles */
-* {
+*{
   margin: 0;
   font-family: "Quicksand";
   color: #333;
+  box-sizing: border-box;
+
+}
+*::before, *::after{
+  box-sizing: border-box;
 }
 .navbar {
   padding: 20px;
@@ -32,4 +35,44 @@
   max-width: 600px;
   margin: 40px auto;
   padding: 20px;
+}
+.calculator-grid{
+  display: grid;
+  grid-template-columns: repeat(4, 6rem);
+  grid-template-rows: minmax(7rem, auto) repeat(5, 6rem); 
+  justify-content: center;
+}
+.calculator-grid > button{
+  cursor: pointer;
+  font-size: 2rem;
+  border: 1px solid white;
+  outline: none;
+  background-color: #ff9ebb49;
+}
+.calculator-grid > button:hover,
+.calculator-grid > button:focus{
+  background-color: #ff9ebb18;
+}
+.span-two{
+  grid-column: span 2;
+}
+.output{
+  grid-column: 1 / -1;
+  background-color: #91808c3f;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+  padding: .75rem;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+.output .previous-result {
+  color: rgb(107, 107, 107);
+  font-size: 1.5rem;
+}
+.output .result {
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+  font-weight: bold;
 }
