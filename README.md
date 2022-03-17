@@ -16,5 +16,4 @@ if `npm install` doesnt work, use:
 `npm install npm`
 
 ## In App
-
 <img src="./public/ss-calculator.png" alt="ss1" width="600"/>
