@@ -1,6 +1,7 @@
 # Cool-Calculator
 Simple calculator built with ReactJS 
 
+><a href="https://hmtcelik.github.io/cool-calculator/" target="_blank">Go to website</a>
 
 ## Usage
 ```
@@ -16,8 +17,6 @@ npm start
 if `npm install` doesnt work, use:
 `npm install npm`
 
-## Test
-<a href="https://hmtcelik.github.io/cool-calculator/" target="_blank">Go to website</a>
 
 # In App
 <img src="./public/ss-calculator.png" alt="ss1" width="600"/>
