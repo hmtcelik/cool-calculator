@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cool-calculator/static/css/main.a3837cc7.css",
+    "main.js": "/cool-calculator/static/js/main.f8c43ac1.js",
+    "static/js/787.756a83bc.chunk.js": "/cool-calculator/static/js/787.756a83bc.chunk.js",
+    "index.html": "/cool-calculator/index.html",
+    "main.a3837cc7.css.map": "/cool-calculator/static/css/main.a3837cc7.css.map",
+    "main.f8c43ac1.js.map": "/cool-calculator/static/js/main.f8c43ac1.js.map",
+    "787.756a83bc.chunk.js.map": "/cool-calculator/static/js/787.756a83bc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a3837cc7.css",
+    "static/js/main.f8c43ac1.js"
+  ]
+}
